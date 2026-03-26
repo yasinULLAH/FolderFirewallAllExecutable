@@ -35,7 +35,7 @@ pip install customtkinter
 ### Running from Source
 Simply run the Python script. The app will automatically prompt you for Administrator rights via Windows UAC.
 ```bash
-python block and unlock and clear firewall acceess to internet to all executables yasin.py
+python "block and unlock and clear firewall acceess to internet to all executables yasin.py"
 ```
 
 ### Compiling to a Standalone Executable (.exe)
@@ -48,7 +48,7 @@ You can build a portable `.exe` so you don't need Python installed on the machin
 2. Place your `logo.ico` in the same directory as the script.
 3. Run the following build command:
    ```bash
-   pyinstaller --noconfirm --onefile --windowed --icon "logo.ico" --uac-admin --name "FolderFirewall" block and unlock and clear firewall acceess to internet to all executables yasin.py
+   pyinstaller --noconfirm --onefile --windowed --icon "logo.ico" --uac-admin --name "FolderFirewall" "block and unlock and clear firewall acceess to internet to all executables yasin.py"
    ```
 4. Find your compiled `FolderFirewall.exe` inside the newly created `dist/` folder.
 

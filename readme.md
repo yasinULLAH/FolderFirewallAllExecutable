@@ -17,9 +17,6 @@ Instead of manually adding rules to Windows Defender Firewall one by one, this t
 * **Auto-Admin Escalation:** Automatically prompts for the necessary Administrator privileges required to modify firewall rules.
 * **Portable:** Can be compiled into a single, standalone `.exe` file.
 
-## 📸 Screenshot
-
-> *(Note: Add a screenshot of your app here by uploading an image to your repository and linking it like this: `![App Screenshot](assets/screenshot.png)`)*
 
 ## ⚙️ Prerequisites
 
@@ -38,7 +35,7 @@ pip install customtkinter
 ### Running from Source
 Simply run the Python script. The app will automatically prompt you for Administrator rights via Windows UAC.
 ```bash
-python firewall_manager.py
+python block and unlock and clear firewall acceess to internet to all executables yasin.py
 ```
 
 ### Compiling to a Standalone Executable (.exe)
@@ -51,9 +48,13 @@ You can build a portable `.exe` so you don't need Python installed on the machin
 2. Place your `logo.ico` in the same directory as the script.
 3. Run the following build command:
    ```bash
-   pyinstaller --noconfirm --onefile --windowed --icon "logo.ico" --uac-admin --name "FolderFirewall" firewall_manager.py
+   pyinstaller --noconfirm --onefile --windowed --icon "logo.ico" --uac-admin --name "FolderFirewall" block and unlock and clear firewall acceess to internet to all executables yasin.py
    ```
 4. Find your compiled `FolderFirewall.exe` inside the newly created `dist/` folder.
+
+Or 
+
+5. Simply Download and run the already compiled `FolderFirewall.exe` file
 
 ## 🧠 How it Works
 
